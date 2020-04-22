@@ -1,0 +1,7 @@
+sitemap MYPV label="MYPV" {
+    Text item=Power label="Power [%s]"
+    Text item=Watertemp label="Watertemp [%s]"
+    Text item=Status label="Status [%s]"
+    Text item=NTPTime label="NTPTime [%s]"
+    Text item=ChipTemp label="ChipTemp [%s]"
+}
