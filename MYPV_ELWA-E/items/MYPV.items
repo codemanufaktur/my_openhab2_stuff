@@ -1,7 +1,0 @@
-Group ELWA
-
-Number Status "Status [%s]" (ELWA) {http="<[elwa:5000:XPATH(/AC_ELWA-E/DeviceStatus/Status/text())]"}
-Number Power "Power [%s]" <heating> (ELWA) {http="<[elwa:5000:XPATH(/AC_ELWA-E/DeviceStatus/Power/text())]"}
-Number Watertemp "Watertemp [%s]" <temperature> (ELWA) {http="<[elwa:5000:XPATH(/AC_ELWA-E/DeviceStatus/Watertemp/text())]"}
-String NTPTime "Time [%s]" (ELWA) {http="<[elwa:5000:XPATH(/AC_ELWA-E/DeviceStatus/Time/text())]"}
-Number ChipTemp "TempChip [%s]" (ELWA) {http="<[elwa:5000:XPATH(/AC_ELWA-E/DeviceStatus/TempChip/text())]"}

@@ -1,0 +1,7 @@
+sitemap ELWA label="ELWA" {
+    Text item=ELWA_Status label="Status [%s]"
+    Text item=ELWA_Power label="Power [%s W]"
+    Text item=ELWA_Watertemp label="Watertemp [%s °C]"
+    Text item=ELWA_NTPTime label="NTPTime [%s]"
+    Text item=ELWA_ChipTemp label="ChipTemp [%s °C]"
+}

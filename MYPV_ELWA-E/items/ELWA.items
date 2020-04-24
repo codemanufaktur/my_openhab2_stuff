@@ -1,0 +1,7 @@
+Group ELWA
+
+Number ELWA_Status "Status [%s]" (ELWA) {http="<[elwa:5000:XPATH(/AC_ELWA-E/DeviceStatus/Status/text())]"}
+Number ELWA_Power "Power [%s W]" <heating> (ELWA) {http="<[elwa:5000:XPATH(/AC_ELWA-E/DeviceStatus/Power/text())]"}
+Number ELWA_Watertemp "Watertemp [%.1f °C]" <temperature> (ELWA) {http="<[elwa:5000:XPATH(substring(/AC_ELWA-E/DeviceStatus/Watertemp/text(),1,2))]"}
+String ELWA_NTPTime "Time [%s]" (ELWA) {http="<[elwa:5000:XPATH(/AC_ELWA-E/DeviceStatus/Time/text())]"}
+Number ELWA_ChipTemp "TempChip [%s °C]" (ELWA) {http="<[elwa:5000:XPATH(/AC_ELWA-E/DeviceStatus/TempChip/text())]"}
